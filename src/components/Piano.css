@@ -1,0 +1,7 @@
+.white-keys, .black-keys, .C-D-key-group, .F-G-A-key-group {
+  display: flex;
+}
+
+.black-keys {
+  justify-content: space-around;
+}
