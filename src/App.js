@@ -9,7 +9,6 @@ function App() {
   document.addEventListener("keydown", (event) => {
     if (event.repeat) { return; }
     event.preventDefault();
-    console.log("keydown event: ", event);
     if (event.key === "d") {
       document.getElementById("C3").play()
     } else if (event.key === "f") {
@@ -28,7 +27,6 @@ function App() {
   document.addEventListener("keyup", (event) => {
     if (event.repeat) { return; }
     event.preventDefault();
-    console.log("keyup event: ", event);
     if (event.key === "d") {
       document.getElementById("C3").load()
     } else if (event.key === "f") {

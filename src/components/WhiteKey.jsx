@@ -8,7 +8,6 @@ const WhiteKey = ({ keyCode, audioId }) => {
     document.addEventListener("keydown", (event) => {
       if (event.repeat) { return; }
       event.preventDefault();
-      console.log("WhiteKey keydown event: ", event);
       if (event.key === keyCode) {
         setIsPressed(true);
         document.getElementById(audioId).play()
@@ -18,7 +17,6 @@ const WhiteKey = ({ keyCode, audioId }) => {
     document.addEventListener("keyup", (event) => {
       if (event.repeat) { return; }
       event.preventDefault();
-      console.log("WhiteKey keyup event: ", event);
       if (event.key === keyCode) {
         setIsPressed(false);
         document.getElementById(audioId).load()
