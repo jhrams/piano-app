@@ -4,12 +4,12 @@
   border: 3px solid;
 }
 
-.black-key {
+.black {
   background: black;
   border-color: white;
 }
 
-.white-key {
+.white {
   background: white;
   border-color: black;
 }

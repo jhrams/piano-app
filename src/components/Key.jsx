@@ -25,9 +25,9 @@ const Key = ({ keyColor, keyCode, audioId }) => {
   }, []);
 
   return (
-    <div className={`key ${keyColor}-key`} style={ { boxShadow: isPressed ? "inset black 0px 0px 0px 5px" : "none" } }>
+    <div className={`key ${keyColor}`} style={ { boxShadow: isPressed ? `inset ${keyColor === "white" ? "black" : "white"} 0px 0px 0px 5px` : "none" } }>
     </div>
   )
 };
 
-export default WhiteKey;
+export default Key;
