@@ -1,7 +1,4 @@
-import logo from './logo.svg';
-
 import Piano from './components/Piano';
-import WhiteKey from './components/WhiteKey';
 
 import './App.css';
 
